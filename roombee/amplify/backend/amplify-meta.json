@@ -1,0 +1,59 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-roombee-dev-175509-authRole",
+      "UnauthRoleArn": "arn:aws:iam::339713054936:role/amplify-roombee-dev-175509-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::339713054936:role/amplify-roombee-dev-175509-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-roombee-dev-175509-deployment",
+      "UnauthRoleName": "amplify-roombee-dev-175509-unauthRole",
+      "StackName": "amplify-roombee-dev-175509",
+      "StackId": "arn:aws:cloudformation:us-east-1:339713054936:stack/amplify-roombee-dev-175509/d4e9e080-c3b8-11ee-a5ca-12cbb6e31ddf",
+      "AmplifyAppId": "d3t333bzpxkd9a"
+    }
+  },
+  "auth": {
+    "roombee9deec044": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL",
+          "PHONE_NUMBER"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-roombee-dev-175509-deployment/amplify-cfn-templates/auth/roombee9deec044-cloudformation-template.json",
+        "logicalId": "authroombee9deec044"
+      },
+      "lastPushTimeStamp": "2024-02-05T00:01:14.045Z",
+      "output": {
+        "UserPoolId": "us-east-1_JCpXhVhpl",
+        "AppClientIDWeb": "23gi4mqnnqocsla4gebj81iis",
+        "AppClientID": "5crvkt0eutg2uoo6vo2b9s4k2o",
+        "IdentityPoolId": "us-east-1:a95914e5-f1e3-4e2d-a30d-18a2249ccfa4",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:339713054936:userpool/us-east-1_JCpXhVhpl",
+        "IdentityPoolName": "roombee9deec044_identitypool_9deec044__dev",
+        "UserPoolName": "roombee9deec044_userpool_9deec044"
+      },
+      "lastPushDirHash": "McY0nvvOcB2WMU/ru0T+4zyYQ1k="
+    }
+  }
+}
